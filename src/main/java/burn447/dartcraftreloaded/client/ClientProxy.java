@@ -1,5 +1,6 @@
-package burn447.dartcraftReloaded.proxy;
+package burn447.dartcraftreloaded.client;
 
+import burn447.dartcraftreloaded.common.CommonProxy;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.World;
 

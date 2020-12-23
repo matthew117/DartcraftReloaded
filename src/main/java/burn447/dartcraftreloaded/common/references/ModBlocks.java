@@ -1,8 +1,11 @@
-package burn447.dartcraftreloaded.common.blocks;
+package burn447.dartcraftreloaded.common.references;
 
-/**
- * Created by BURN447 on 2/4/2018.
- */
+import burn447.dartcraftreloaded.common.blocks.BlockFluidForce;
+
 public class ModBlocks {
-    
+
+    public static BlockFluidForce FLUID_FORCE_BLOCK;
+
+    public ModBlocks() {}
+
 }

@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.proxy;
+package burn447.dartcraftreloaded.common;
 
 import net.minecraft.world.World;
 
