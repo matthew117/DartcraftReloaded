@@ -1,9 +1,9 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
 import net.minecraftforge.event.entity.living.LootingLevelEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_PLAYERMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_PLAYERMOD;
 
 public class onLootingEvent {
 

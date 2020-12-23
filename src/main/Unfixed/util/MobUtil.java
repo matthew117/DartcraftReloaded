@@ -1,12 +1,12 @@
-package burn447.dartcraftReloaded.util;
+package burn447.dartcraftreloaded.util;
 
-import burn447.dartcraftReloaded.Potion.Effects.EffectBleeding;
+import burn447.dartcraftreloaded.Potion.Effects.EffectBleeding;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 /**
  * Created by BURN447 on 6/16/2018.

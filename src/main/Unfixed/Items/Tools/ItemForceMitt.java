@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Items.Tools;
+package burn447.dartcraftreloaded.Items.Tools;
 
-import burn447.dartcraftReloaded.Items.ItemBase;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.Items.ItemBase;
+import burn447.dartcraftreloaded.dartcraftReloaded;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Multimap;
 import net.minecraft.block.Block;

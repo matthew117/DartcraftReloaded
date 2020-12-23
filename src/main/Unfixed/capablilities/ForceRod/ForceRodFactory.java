@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.ForceRod;
+package burn447.dartcraftreloaded.capablilities.ForceRod;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;

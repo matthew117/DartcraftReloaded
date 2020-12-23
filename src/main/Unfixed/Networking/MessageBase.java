@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Networking;
+package burn447.dartcraftreloaded.Networking;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;

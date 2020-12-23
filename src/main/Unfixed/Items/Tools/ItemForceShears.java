@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Items.Tools;
+package burn447.dartcraftreloaded.Items.Tools;
 
-import burn447.dartcraftReloaded.capablilities.ToolModifier.ToolModProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.capablilities.ToolModifier.ToolModProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.passive.EntityChicken;
@@ -23,8 +23,8 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Random;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_SHEARABLE;
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_SHEARABLE;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 /**
  * Created by BURN447 on 6/9/2018.

@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.Items.NonBurnable;
+package burn447.dartcraftreloaded.Items.NonBurnable;
 
-import burn447.dartcraftReloaded.Items.ItemBase;
+import burn447.dartcraftreloaded.Items.ItemBase;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;

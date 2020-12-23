@@ -1,10 +1,10 @@
-package burn447.dartcraftReloaded.Items;
+package burn447.dartcraftreloaded.Items;
 
-import burn447.dartcraftReloaded.capablilities.ExperienceTome.ExperienceTomeProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
-import burn447.dartcraftReloaded.util.DartUtils;
-import burn447.dartcraftReloaded.util.ServerHelper;
-import burn447.dartcraftReloaded.util.StringHelper;
+import burn447.dartcraftreloaded.capablilities.ExperienceTome.ExperienceTomeProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.util.DartUtils;
+import burn447.dartcraftreloaded.util.ServerHelper;
+import burn447.dartcraftreloaded.util.StringHelper;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -20,7 +20,7 @@ import scala.Int;
 import javax.annotation.Nullable;
 import java.util.List;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_EXPTOME;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_EXPTOME;
 
 /**
  * Created by BURN447 on 6/11/2018.

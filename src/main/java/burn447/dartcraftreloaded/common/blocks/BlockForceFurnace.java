@@ -1,7 +1,7 @@
 package burn447.dartcraftReloaded.blocks;
 
+import burn447.dartcraftReloaded.DartcraftReloaded;
 import burn447.dartcraftReloaded.Handlers.DCRGUIHandler;
-import burn447.dartcraftReloaded.dartcraftReloaded;
 import burn447.dartcraftReloaded.tileEntity.TileEntityForceFurnace;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.BlockHorizontal;
@@ -44,7 +44,7 @@ public class BlockForceFurnace extends BlockContainer
         this.blockResistance = 18.0F;
         this.setRegistryName(name);
         this.setTranslationKey(name);
-        this.setCreativeTab(dartcraftReloaded.creativeTab);
+        this.setCreativeTab(DartcraftReloaded.creativeTab);
     }
 
     public Item createItemBlock() {
@@ -157,7 +157,7 @@ public class BlockForceFurnace extends BlockContainer
 
             if (tileentity instanceof TileEntityForceFurnace)
             {
-                playerIn.openGui(dartcraftReloaded.instance, DCRGUIHandler.FURNACE, worldIn, pos.getX(), pos.getY(), pos.getZ());
+                playerIn.openGui(DartcraftReloaded.instance, DCRGUIHandler.FURNACE, worldIn, pos.getX(), pos.getY(), pos.getZ());
                 playerIn.addStat(StatList.FURNACE_INTERACTION);
             }
 
@@ -327,7 +327,7 @@ public class BlockForceFurnace extends BlockContainer
         return new BlockStateContainer(this, new IProperty[] {FACING});
     }
     public void registerItemModel(Item itemBlock) {
-        dartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, "forceFurnace");
+        DartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, "forceFurnace");
     }
 
     @Override

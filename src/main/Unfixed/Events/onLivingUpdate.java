@@ -1,8 +1,8 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
-import burn447.dartcraftReloaded.Handlers.DCRPotionHandler;
-import burn447.dartcraftReloaded.Items.Tools.ItemMagnetGlove;
-import burn447.dartcraftReloaded.Potion.Effects.EffectMagnet;
+import burn447.dartcraftreloaded.Handlers.DCRPotionHandler;
+import burn447.dartcraftreloaded.Items.Tools.ItemMagnetGlove;
+import burn447.dartcraftreloaded.Potion.Effects.EffectMagnet;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.ItemStack;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.*;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.*;
 
 /**
  * Created by BURN447 on 7/6/2018.
@@ -41,7 +41,7 @@ public class onLivingUpdate {
             int bane = 0;
             int bleed = 0;
             for (ItemStack slotSelected : armor) {
-                if (slotSelected.getItem() instanceof burn447.dartcraftReloaded.Items.ItemArmor && slotSelected.hasCapability(CAPABILITY_TOOLMOD, null)) {
+                if (slotSelected.getItem() instanceof burn447.dartcraftreloaded.Items.ItemArmor && slotSelected.hasCapability(CAPABILITY_TOOLMOD, null)) {
                     //Camo
                     if(slotSelected.getCapability(CAPABILITY_TOOLMOD, null).hasCamo()) {
                         camo = true;

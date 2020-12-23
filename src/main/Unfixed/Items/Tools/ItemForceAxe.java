@@ -1,9 +1,9 @@
-package burn447.dartcraftReloaded.Items.Tools;
+package burn447.dartcraftreloaded.Items.Tools;
 
-import burn447.dartcraftReloaded.capablilities.ToolModifier.ToolModProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
-import burn447.dartcraftReloaded.util.DartUtils;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.capablilities.ToolModifier.ToolModProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.util.DartUtils;
+import burn447.dartcraftreloaded.util.References;
 import com.google.common.collect.Lists;
 import gnu.trove.set.hash.THashSet;
 import net.minecraft.client.util.ITooltipFlag;
@@ -27,8 +27,8 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
-import static burn447.dartcraftReloaded.util.DartUtils.isLog;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.util.DartUtils.isLog;
 
 /**
  * Created by BURN447 on 5/13/2018.

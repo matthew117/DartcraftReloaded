@@ -1,8 +1,8 @@
-package burn447.dartcraftReloaded.Items;
+package burn447.dartcraftreloaded.Items;
 
-import burn447.dartcraftReloaded.Items.NonBurnable.ItemInertCore;
-import burn447.dartcraftReloaded.Items.Tools.*;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.Items.NonBurnable.ItemInertCore;
+import burn447.dartcraftreloaded.Items.Tools.*;
+import burn447.dartcraftreloaded.dartcraftReloaded;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;

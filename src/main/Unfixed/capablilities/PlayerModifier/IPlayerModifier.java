@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.PlayerModifier;
+package burn447.dartcraftreloaded.capablilities.PlayerModifier;
 
 /**
  * Created by BURN447 on 6/21/2018.

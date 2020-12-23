@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.Magnet;
+package burn447.dartcraftreloaded.capablilities.Magnet;
 
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.util.INBTSerializable;

@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.config;
+package burn447.dartcraftreloaded.config;
 
 
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;

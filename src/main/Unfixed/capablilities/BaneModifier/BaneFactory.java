@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.BaneModifier;
+package burn447.dartcraftreloaded.capablilities.BaneModifier;
 
 import net.minecraft.nbt.NBTTagCompound;
 

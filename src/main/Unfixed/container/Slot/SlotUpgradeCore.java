@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.container.Slot;
+package burn447.dartcraftreloaded.container.Slot;
 
-import burn447.dartcraftReloaded.Items.ItemUpgradeCore;
+import burn447.dartcraftreloaded.Items.ItemUpgradeCore;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;

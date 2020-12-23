@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Energy;
+package burn447.dartcraftreloaded.Energy;
 
 import net.minecraftforge.energy.EnergyStorage;
 

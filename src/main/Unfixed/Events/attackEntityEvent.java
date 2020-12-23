@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
-import burn447.dartcraftReloaded.Potion.Potions.PotionBleeding;
-import burn447.dartcraftReloaded.util.DartUtils;
+import burn447.dartcraftreloaded.Potion.Potions.PotionBleeding;
+import burn447.dartcraftreloaded.util.DartUtils;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.potion.Potion;
@@ -9,7 +9,7 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.event.entity.player.AttackEntityEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 /**
  * Created by BURN447 on 6/19/2018.

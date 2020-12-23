@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Items;
+package burn447.dartcraftreloaded.Items;
 
-import burn447.dartcraftReloaded.capablilities.ToolModifier.ToolModProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.capablilities.ToolModifier.ToolModProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -13,8 +13,8 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import javax.annotation.Nullable;
 import java.util.List;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_PLAYERMOD;
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_PLAYERMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 /**
  * Created by BURN447 on 3/4/2018.

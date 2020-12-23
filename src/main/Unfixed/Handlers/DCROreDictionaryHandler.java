@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Handlers;
+package burn447.dartcraftreloaded.Handlers;
 
 public class DCROreDictionaryHandler {
 

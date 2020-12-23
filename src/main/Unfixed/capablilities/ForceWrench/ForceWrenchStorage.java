@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.ForceWrench;
+package burn447.dartcraftreloaded.capablilities.ForceWrench;
 
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;

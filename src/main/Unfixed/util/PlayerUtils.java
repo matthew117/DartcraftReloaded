@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.util;
+package burn447.dartcraftreloaded.util;
 
-import burn447.dartcraftReloaded.config.ConfigHandler;
+import burn447.dartcraftreloaded.config.ConfigHandler;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;

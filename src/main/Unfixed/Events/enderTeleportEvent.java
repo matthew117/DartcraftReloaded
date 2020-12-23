@@ -1,10 +1,10 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
 import net.minecraft.entity.monster.EntityEnderman;
 import net.minecraftforge.event.entity.living.EnderTeleportEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_BANE;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_BANE;
 
 /**
  * Created by BURN447 on 6/17/2018.

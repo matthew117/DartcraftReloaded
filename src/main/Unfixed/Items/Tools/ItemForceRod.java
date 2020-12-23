@@ -1,12 +1,12 @@
-package burn447.dartcraftReloaded.Items.Tools;
+package burn447.dartcraftreloaded.Items.Tools;
 
-import burn447.dartcraftReloaded.Items.ItemBase;
-import burn447.dartcraftReloaded.Items.ModItems;
-import burn447.dartcraftReloaded.Items.NonBurnable.EntityNonBurnableItem;
-import burn447.dartcraftReloaded.Items.NonBurnable.ItemInertCore;
-import burn447.dartcraftReloaded.capablilities.ForceRod.ForceRodProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.Items.ItemBase;
+import burn447.dartcraftreloaded.Items.ModItems;
+import burn447.dartcraftreloaded.Items.NonBurnable.EntityNonBurnableItem;
+import burn447.dartcraftreloaded.Items.NonBurnable.ItemInertCore;
+import burn447.dartcraftreloaded.capablilities.ForceRod.ForceRodProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
@@ -32,9 +32,9 @@ import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_FORCEROD;
-import static burn447.dartcraftReloaded.util.References.MODIFIERS.MOD_ENDER;
-import static burn447.dartcraftReloaded.util.References.MODIFIERS.MOD_HEALING;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_FORCEROD;
+import static burn447.dartcraftreloaded.util.References.MODIFIERS.MOD_ENDER;
+import static burn447.dartcraftreloaded.util.References.MODIFIERS.MOD_HEALING;
 
 /**
  * Created by BURN447 on 2/23/2018.

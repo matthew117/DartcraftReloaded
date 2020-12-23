@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.ExperienceTome;
+package burn447.dartcraftreloaded.capablilities.ExperienceTome;
 
 import net.minecraft.nbt.NBTTagCompound;
 

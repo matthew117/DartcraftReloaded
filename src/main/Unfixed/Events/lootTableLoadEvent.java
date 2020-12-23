@@ -1,8 +1,8 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
-import burn447.dartcraftReloaded.Items.ModItems;
-import burn447.dartcraftReloaded.lootTables.DCRLootTables;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.Items.ModItems;
+import burn447.dartcraftreloaded.lootTables.DCRLootTables;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.*;
 import net.minecraft.world.storage.loot.conditions.LootCondition;

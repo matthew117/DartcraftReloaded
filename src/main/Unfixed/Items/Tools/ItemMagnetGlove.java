@@ -1,10 +1,10 @@
-package burn447.dartcraftReloaded.Items.Tools;
+package burn447.dartcraftreloaded.Items.Tools;
 
-import burn447.dartcraftReloaded.Items.ItemBase;
-import burn447.dartcraftReloaded.capablilities.Magnet.MagnetProvider;
-import burn447.dartcraftReloaded.capablilities.ToolModifier.ToolModProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.Items.ItemBase;
+import burn447.dartcraftreloaded.capablilities.Magnet.MagnetProvider;
+import burn447.dartcraftreloaded.capablilities.ToolModifier.ToolModProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.client.renderer.ItemMeshDefinition;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.util.ITooltipFlag;
@@ -24,8 +24,8 @@ import javax.annotation.Nullable;
 
 import java.util.List;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_MAGNET;
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_MAGNET;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 public class ItemMagnetGlove extends ItemBase {
 

@@ -1,8 +1,8 @@
-package burn447.dartcraftReloaded.tileEntity;
+package burn447.dartcraftreloaded.tileEntity;
 
-import burn447.dartcraftReloaded.Items.ModItems;
-import burn447.dartcraftReloaded.blocks.BlockForceFurnace;
-import burn447.dartcraftReloaded.container.ContainerBlockFurnace;
+import burn447.dartcraftreloaded.Items.ModItems;
+import burn447.dartcraftreloaded.common.blocks.BlockForceFurnace;
+import burn447.dartcraftreloaded.container.ContainerBlockFurnace;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;
@@ -442,7 +442,7 @@ public class TileEntityForceFurnace extends TileEntityLockable implements ITicka
 
     public String getGuiID()
     {
-        return "dartcraftReloaded:furnace";
+        return "dartcraftreloaded:furnace";
     }
 
     public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn)

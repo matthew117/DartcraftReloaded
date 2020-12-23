@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.Potion.Effects;
+package burn447.dartcraftreloaded.Potion.Effects;
 
-import burn447.dartcraftReloaded.Handlers.DCRPotionHandler;
+import burn447.dartcraftreloaded.Handlers.DCRPotionHandler;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;

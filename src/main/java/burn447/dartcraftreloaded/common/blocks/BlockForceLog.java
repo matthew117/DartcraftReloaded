@@ -1,8 +1,7 @@
 package burn447.dartcraftReloaded.blocks;
 
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftReloaded.DartcraftReloaded;
 import net.minecraft.block.BlockRotatedPillar;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
@@ -27,7 +26,7 @@ public class BlockForceLog extends BlockRotatedPillar {
         super(Material.WOOD);
         this.setHardness(1.0F);
         this.setHarvestLevel("axe", 0);
-        this.setCreativeTab(dartcraftReloaded.creativeTab);
+        this.setCreativeTab(DartcraftReloaded.creativeTab);
         this.setRegistryName(name);
         this.setTranslationKey(name);
         this.setLightOpacity(1);
@@ -39,7 +38,7 @@ public class BlockForceLog extends BlockRotatedPillar {
         super(Material.WOOD);
         this.setHardness(1.0F);
         this.setHarvestLevel("axe", 0);
-        this.setCreativeTab(dartcraftReloaded.creativeTab);
+        this.setCreativeTab(DartcraftReloaded.creativeTab);
         this.setRegistryName(name);
         this.setTranslationKey(name);
         this.setLightOpacity(1);
@@ -51,7 +50,7 @@ public class BlockForceLog extends BlockRotatedPillar {
 
 
     public void registerItemModel(Item itemBlock) {
-        dartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, name);
+        DartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, name);
     }
 
     public Item createItemBlock() {

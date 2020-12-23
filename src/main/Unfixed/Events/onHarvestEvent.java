@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import java.util.ListIterator;
 import java.util.Random;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 /**
  * Created by BURN447 on 6/1/2018.

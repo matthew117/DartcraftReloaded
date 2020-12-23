@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Items.Tools;
+package burn447.dartcraftreloaded.Items.Tools;
 
-import burn447.dartcraftReloaded.capablilities.ToolModifier.ToolModProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.capablilities.ToolModifier.ToolModProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
 import com.google.common.collect.Multimap;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -30,7 +30,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import javax.annotation.Nullable;
 import java.util.List;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 /**
  * Created by BURN447 on 5/13/2018.

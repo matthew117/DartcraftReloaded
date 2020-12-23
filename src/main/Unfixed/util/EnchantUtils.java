@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.util;
+package burn447.dartcraftreloaded.util;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -9,7 +9,7 @@ import net.minecraft.nbt.NBTTagCompound;
 
 import java.util.Map;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 
 public final class EnchantUtils {
 

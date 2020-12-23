@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Handlers;
+package burn447.dartcraftreloaded.Handlers;
 
-import burn447.dartcraftReloaded.Networking.InfuserMessage;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.Networking.InfuserMessage;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.network.Packet;

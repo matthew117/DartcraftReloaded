@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.Networking;
+package burn447.dartcraftreloaded.Networking;
 
-import burn447.dartcraftReloaded.container.ContainerBlockInfuser;
+import burn447.dartcraftreloaded.container.ContainerBlockInfuser;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;

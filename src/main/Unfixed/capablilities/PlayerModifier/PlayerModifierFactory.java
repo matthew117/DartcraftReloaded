@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.PlayerModifier;
+package burn447.dartcraftreloaded.capablilities.PlayerModifier;
 
 import net.minecraft.entity.SharedMonsterAttributes;
 

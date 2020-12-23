@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.client;
+package burn447.dartcraftreloaded.client;
 
-import burn447.dartcraftReloaded.Items.ModItems;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.Items.ModItems;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 

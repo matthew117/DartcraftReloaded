@@ -1,6 +1,6 @@
 package burn447.dartcraftReloaded.blocks;
 
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftReloaded.DartcraftReloaded;
 import net.minecraft.block.BlockColored;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
@@ -19,7 +19,7 @@ public class BlockForceBrick extends BlockBase {
         this.setResistance(200.0F);
         this.setRegistryName(name);
         this.setTranslationKey(name);
-        this.setCreativeTab(dartcraftReloaded.creativeTab);
+        this.setCreativeTab(DartcraftReloaded.creativeTab);
         this.name = name;
         this.oreName = "forceBrick";
         this.setHarvestLevel("pickaxe", 3);
@@ -30,6 +30,6 @@ public class BlockForceBrick extends BlockBase {
     }
 
     public void registerItemModel(Item itemBlock) {
-        dartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, name);
+        DartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, name);
     }
 }

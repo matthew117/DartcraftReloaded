@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.container.Slot;
+package burn447.dartcraftreloaded.container.Slot;
 
-import burn447.dartcraftReloaded.tileEntity.TileEntityInfuser;
+import burn447.dartcraftreloaded.tileEntity.TileEntityInfuser;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.items.IItemHandler;

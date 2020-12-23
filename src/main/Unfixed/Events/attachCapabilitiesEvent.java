@@ -1,8 +1,8 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
-import burn447.dartcraftReloaded.capablilities.BaneModifier.BaneProvider;
-import burn447.dartcraftReloaded.capablilities.PlayerModifier.PlayerModifierProvider;
-import burn447.dartcraftReloaded.capablilities.Shearable.ShearableProvider;
+import burn447.dartcraftreloaded.capablilities.BaneModifier.BaneProvider;
+import burn447.dartcraftreloaded.capablilities.PlayerModifier.PlayerModifierProvider;
+import burn447.dartcraftreloaded.capablilities.Shearable.ShearableProvider;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.monster.EntityEnderman;
 import net.minecraft.entity.passive.EntityChicken;
@@ -11,7 +11,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.*;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.*;
 
 /**
  * Created by BURN447 on 6/16/2018.

@@ -3,12 +3,11 @@ package burn447.dartcraftReloaded.proxy;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.World;
 
-/**
- * Created by BURN447 on 2/4/2018.
- */
-public class ClientProxy implements IProxy {
+public class ClientProxy extends CommonProxy {
+
     @Override
     public World getClientWorld() {
         return Minecraft.getInstance().world;
     }
+
 }

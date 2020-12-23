@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Items;
+package burn447.dartcraftreloaded.Items;
 
-import burn447.dartcraftReloaded.Handlers.DCRGUIHandler;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.Handlers.DCRGUIHandler;
+import burn447.dartcraftreloaded.dartcraftReloaded;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;

@@ -1,8 +1,8 @@
-package burn447.dartcraftReloaded.Items.Tools;
+package burn447.dartcraftreloaded.Items.Tools;
 
-import burn447.dartcraftReloaded.capablilities.ToolModifier.ToolModProvider;
-import burn447.dartcraftReloaded.dartcraftReloaded;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.capablilities.ToolModifier.ToolModProvider;
+import burn447.dartcraftreloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.util.References;
 import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -29,8 +29,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
-import static burn447.dartcraftReloaded.util.References.MODIFIERS.*;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.util.References.MODIFIERS.*;
 
 /**
  * Created by BURN447 on 5/13/2018.

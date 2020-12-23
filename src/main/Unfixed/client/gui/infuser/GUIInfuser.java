@@ -1,12 +1,12 @@
-package burn447.dartcraftReloaded.client.gui.infuser;
+package burn447.dartcraftreloaded.client.gui.infuser;
 
-import burn447.dartcraftReloaded.Fluids.ModFluids;
-import burn447.dartcraftReloaded.Handlers.DCRPacketHandler;
-import burn447.dartcraftReloaded.Networking.InfuserMessage;
-import burn447.dartcraftReloaded.container.ContainerBlockInfuser;
-import burn447.dartcraftReloaded.dartcraftReloaded;
-import burn447.dartcraftReloaded.tileEntity.TileEntityInfuser;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.common.fluids.ModFluids;
+import burn447.dartcraftreloaded.Handlers.DCRPacketHandler;
+import burn447.dartcraftreloaded.Networking.InfuserMessage;
+import burn447.dartcraftreloaded.container.ContainerBlockInfuser;
+import burn447.dartcraftreloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.tileEntity.TileEntityInfuser;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;

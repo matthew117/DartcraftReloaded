@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Events;
+package burn447.dartcraftreloaded.Events;
 
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;

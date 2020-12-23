@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.lootTables;
+package burn447.dartcraftreloaded.lootTables;
 
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.LootTableList;
 

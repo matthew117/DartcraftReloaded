@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.Handlers;
+package burn447.dartcraftreloaded.Handlers;
 
-import burn447.dartcraftReloaded.Items.ModItems;
+import burn447.dartcraftreloaded.Items.ModItems;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.IFuelHandler;
 

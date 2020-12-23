@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Items;
+package burn447.dartcraftreloaded.Items;
 
 public interface ItemOreDict {
 

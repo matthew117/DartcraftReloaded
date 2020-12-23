@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Potion.Potions;
+package burn447.dartcraftreloaded.Potion.Potions;
 
 import net.minecraft.potion.Potion;
 

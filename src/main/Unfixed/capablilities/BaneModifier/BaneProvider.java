@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.BaneModifier;
+package burn447.dartcraftreloaded.capablilities.BaneModifier;
 
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
@@ -10,7 +10,7 @@ import net.minecraftforge.common.capabilities.ICapabilitySerializable;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_BANE;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_BANE;
 
 /**
  * Created by BURN447 on 6/16/2018.

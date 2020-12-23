@@ -1,7 +1,7 @@
 package burn447.dartcraftReloaded.blocks;
 
 import burn447.dartcraftReloaded.Items.ModItems;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftReloaded.DartcraftReloaded;
 import com.google.common.collect.Lists;
 import net.minecraft.block.BlockLeaves;
 import net.minecraft.block.BlockPlanks;
@@ -15,13 +15,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumParticleTypes;
-import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import org.apache.logging.log4j.core.config.Order;
 
 import javax.annotation.Nonnull;
 import java.util.List;
@@ -37,14 +35,14 @@ public class BlockForceLeaves extends BlockLeaves {
         this.setRegistryName(name);
         this.setTranslationKey(name);
         this.name = name;
-        this.setCreativeTab(dartcraftReloaded.creativeTab);
+        this.setCreativeTab(DartcraftReloaded.creativeTab);
         this.createItemBlock();
 
         this.setDefaultState(this.blockState.getBaseState().withProperty(CHECK_DECAY, false).withProperty(DECAYABLE, true));
     }
 
     public void registerItemModel(Item itemBlock) {
-        dartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, name);
+        DartcraftReloaded.proxy.registerItemRenderer(itemBlock, 0, name);
     }
 
     @Override

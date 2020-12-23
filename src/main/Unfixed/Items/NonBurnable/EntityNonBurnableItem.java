@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Items.NonBurnable;
+package burn447.dartcraftreloaded.Items.NonBurnable;
 
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;

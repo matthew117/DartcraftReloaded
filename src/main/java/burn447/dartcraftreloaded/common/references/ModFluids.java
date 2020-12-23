@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.Fluids;
+package burn447.dartcraftreloaded.common.fluids;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fluids.Fluid;
@@ -9,7 +9,7 @@ import net.minecraftforge.fluids.FluidRegistry;
  */
 public class ModFluids {
 
-    public static FluidForce fluidForce = new FluidForce();
+    public static ItemFluidForceBucket fluidForce = new FluidForce();
 
     public static Fluid fluidForceBlock;
 

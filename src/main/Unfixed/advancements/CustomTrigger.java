@@ -13,7 +13,7 @@
 
  For a copy of the GNU General Public License see <http://www.gnu.org/licenses/>.
  */
-package burn447.dartcraftReloaded.advancements;
+package burn447.dartcraftreloaded.advancements;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Set;

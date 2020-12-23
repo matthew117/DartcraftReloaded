@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.container;
+package burn447.dartcraftreloaded.container;
 
-import burn447.dartcraftReloaded.Items.ItemForceBelt;
-import burn447.dartcraftReloaded.Items.ItemForcePack;
+import burn447.dartcraftreloaded.Items.ItemForceBelt;
+import burn447.dartcraftreloaded.Items.ItemForcePack;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IInventory;

@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.Shearable;
+package burn447.dartcraftreloaded.capablilities.Shearable;
 
 import net.minecraft.nbt.NBTTagCompound;
 

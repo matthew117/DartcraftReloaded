@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.world;
+package burn447.dartcraftreloaded.world;
 
-import burn447.dartcraftReloaded.blocks.ModBlocks;
+import burn447.dartcraftreloaded.common.blocks.ModBlocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;

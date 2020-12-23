@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.container.Slot;
+package burn447.dartcraftreloaded.container.Slot;
 
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.util;
+package burn447.dartcraftreloaded.util;
 
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.FMLCommonHandler;

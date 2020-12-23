@@ -1,8 +1,8 @@
-package burn447.dartcraftReloaded.client.gui.furnace;
+package burn447.dartcraftreloaded.client.gui.furnace;
 
-import burn447.dartcraftReloaded.container.ContainerBlockFurnace;
-import burn447.dartcraftReloaded.tileEntity.TileEntityForceFurnace;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.container.ContainerBlockFurnace;
+import burn447.dartcraftreloaded.tileEntity.TileEntityForceFurnace;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.InventoryPlayer;

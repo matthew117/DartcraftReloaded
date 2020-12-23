@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.Magnet;
+package burn447.dartcraftreloaded.capablilities.Magnet;
 
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.util.EnumFacing;
@@ -9,7 +9,7 @@ import net.minecraftforge.common.capabilities.ICapabilitySerializable;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_MAGNET;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_MAGNET;
 
 public class MagnetProvider implements ICapabilitySerializable<NBTBase>, ICapabilityProvider {
 

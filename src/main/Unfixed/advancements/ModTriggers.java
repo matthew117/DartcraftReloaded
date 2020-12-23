@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.advancements;
+package burn447.dartcraftreloaded.advancements;
 
 public class ModTriggers {
 

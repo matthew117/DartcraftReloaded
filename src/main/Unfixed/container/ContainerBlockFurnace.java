@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.container;
+package burn447.dartcraftreloaded.container;
 
-import burn447.dartcraftReloaded.container.Slot.SlotForceFuel;
-import burn447.dartcraftReloaded.tileEntity.TileEntityForceFurnace;
+import burn447.dartcraftreloaded.container.Slot.SlotForceFuel;
+import burn447.dartcraftreloaded.tileEntity.TileEntityForceFurnace;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.*;

@@ -2,7 +2,7 @@ package burn447.dartcraftReloaded.blocks;
 
 import burn447.dartcraftReloaded.Handlers.DCRGUIHandler;
 import burn447.dartcraftReloaded.advancements.ModTriggers;
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftReloaded.DartcraftReloaded;
 import burn447.dartcraftReloaded.tileEntity.TileEntityInfuser;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -26,7 +26,7 @@ public class BlockInfuser extends BlockBase {
 
     public BlockInfuser(String name) {
         super(Material.ROCK, name);
-        this.setCreativeTab(dartcraftReloaded.creativeTab);
+        this.setCreativeTab(DartcraftReloaded.creativeTab);
         this.setRegistryName(name);
         this.setTranslationKey(name);
     }
@@ -80,7 +80,7 @@ public class BlockInfuser extends BlockBase {
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if (!worldIn.isRemote) {
-            playerIn.openGui(dartcraftReloaded.instance, DCRGUIHandler.INFUSER, worldIn, pos.getX(), pos.getY(), pos.getZ());
+            playerIn.openGui(DartcraftReloaded.instance, DCRGUIHandler.INFUSER, worldIn, pos.getX(), pos.getY(), pos.getZ());
         }
         return true;
     }

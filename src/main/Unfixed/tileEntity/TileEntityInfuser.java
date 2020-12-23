@@ -1,14 +1,14 @@
-package burn447.dartcraftReloaded.tileEntity;
+package burn447.dartcraftreloaded.tileEntity;
 
-import burn447.dartcraftReloaded.Energy.DCREnergyStorage;
-import burn447.dartcraftReloaded.Fluids.FluidForce;
-import burn447.dartcraftReloaded.Items.ItemArmor;
-import burn447.dartcraftReloaded.Items.ModItems;
-import burn447.dartcraftReloaded.Items.Tools.*;
-import burn447.dartcraftReloaded.blocks.ModBlocks;
-import burn447.dartcraftReloaded.blocks.torch.BlockForceTorch;
-import burn447.dartcraftReloaded.util.EnchantUtils;
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.Energy.DCREnergyStorage;
+import burn447.dartcraftreloaded.common.fluids.FluidForce;
+import burn447.dartcraftreloaded.Items.ItemArmor;
+import burn447.dartcraftreloaded.Items.ModItems;
+import burn447.dartcraftreloaded.Items.Tools.*;
+import burn447.dartcraftreloaded.common.blocks.ModBlocks;
+import burn447.dartcraftreloaded.common.blocks.torch.BlockForceTorch;
+import burn447.dartcraftreloaded.util.EnchantUtils;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.init.Blocks;
@@ -45,8 +45,8 @@ import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_FORCEROD;
-import static burn447.dartcraftReloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_FORCEROD;
+import static burn447.dartcraftreloaded.Handlers.DCRCapabilityHandler.CAPABILITY_TOOLMOD;
 import static net.minecraftforge.fluids.capability.CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY;
 
 

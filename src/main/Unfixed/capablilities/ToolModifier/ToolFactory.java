@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.capablilities.ToolModifier;
+package burn447.dartcraftreloaded.capablilities.ToolModifier;
 
 import java.util.concurrent.Callable;
 

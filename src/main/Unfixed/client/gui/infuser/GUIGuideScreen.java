@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.client.gui.infuser;
+package burn447.dartcraftreloaded.client.gui.infuser;
 
-import burn447.dartcraftReloaded.util.References;
+import burn447.dartcraftreloaded.util.References;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;

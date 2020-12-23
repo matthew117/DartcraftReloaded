@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Handlers;
+package burn447.dartcraftreloaded.Handlers;
 
-import burn447.dartcraftReloaded.Potion.Potions.PotionBleeding;
-import burn447.dartcraftReloaded.Potion.Potions.PotionMagnet;
+import burn447.dartcraftreloaded.Potion.Potions.PotionBleeding;
+import burn447.dartcraftreloaded.Potion.Potions.PotionMagnet;
 import net.minecraft.potion.Potion;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.registries.IForgeRegistry;

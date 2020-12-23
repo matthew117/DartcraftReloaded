@@ -1,7 +1,7 @@
-package burn447.dartcraftReloaded.Handlers;
+package burn447.dartcraftreloaded.Handlers;
 
-import burn447.dartcraftReloaded.Events.*;
-import burn447.dartcraftReloaded.util.PlayerUtils;
+import burn447.dartcraftreloaded.Events.*;
+import burn447.dartcraftreloaded.util.PlayerUtils;
 import net.minecraftforge.common.MinecraftForge;
 
 /**

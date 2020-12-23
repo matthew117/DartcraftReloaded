@@ -1,4 +1,4 @@
-package burn447.dartcraftReloaded.util;
+package burn447.dartcraftreloaded.util;
 
 import org.lwjgl.input.Keyboard;
 

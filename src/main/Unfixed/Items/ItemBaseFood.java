@@ -1,6 +1,6 @@
-package burn447.dartcraftReloaded.Items;
+package burn447.dartcraftreloaded.Items;
 
-import burn447.dartcraftReloaded.dartcraftReloaded;
+import burn447.dartcraftreloaded.dartcraftReloaded;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
