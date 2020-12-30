@@ -1,69 +1,50 @@
 package burn447.dartcraftreloaded.common.references;
 
 import burn447.dartcraftreloaded.DartcraftReloaded;
-import burn447.dartcraftreloaded.common.blocks.BlockFluidForce;
-import burn447.dartcraftreloaded.common.fluids.FluidForce;
-import burn447.dartcraftreloaded.common.fluids.FluidForce.Flowing;
-import burn447.dartcraftreloaded.common.items.ItemFluidForceBucket;
-import burn447.dartcraftreloaded.common.util.NameUtil;
+import net.minecraft.fluid.FlowingFluid;
 import net.minecraft.fluid.Fluid;
+import net.minecraft.item.Rarity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fluids.FluidAttributes;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 
-import java.util.function.Function;
-import java.util.function.Supplier;
+public class ModFluids
+{
 
-public class ModFluids {
+  public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, DartcraftReloaded.MOD_ID);
 
-    private ModFluids() {
-    }
+  public static RegistryObject<FlowingFluid> FLUID_FORCE_SOURCE;
+  public static RegistryObject<FlowingFluid> FLUID_FORCE_FLOWING;
 
-    public static ForgeFlowingFluid FLUID_FORCE_SOURCE;
-    public static ForgeFlowingFluid FLUID_FORCE_FLOWING;
-    public static ForgeFlowingFluid.Properties FLUID_FORCE_PROPERTIES;
+  public static ForgeFlowingFluid.Properties FLUID_FORCE_PROPERTIES = new ForgeFlowingFluid.Properties(
+          () -> FLUID_FORCE_SOURCE.get(),
+          () -> FLUID_FORCE_FLOWING.get(),
+          FluidAttributes.builder(
+                  new ResourceLocation(DartcraftReloaded.MOD_ID, "fluid_force_still"),
+                  new ResourceLocation(DartcraftReloaded.MOD_ID, "fluid_force_flowing")
+          )
+                  .rarity(Rarity.RARE)
+                  .density(2000)
+                  .viscosity(1000)
+                  .temperature(120));
 
-    public static void registerFluids() {
-        makeProperties();
+  private ModFluids() {
+  }
 
-        FLUID_FORCE_SOURCE = registerFluid(new FluidForce.Source(FLUID_FORCE_PROPERTIES));
-        FLUID_FORCE_FLOWING = registerFluid(new FluidForce.Flowing(FLUID_FORCE_PROPERTIES));
+  public static void registerFluids()
+  {
+    FLUID_FORCE_SOURCE = FLUIDS.register(
+            "fluid_force_still",
+            () -> new ForgeFlowingFluid.Source(FLUID_FORCE_PROPERTIES)
+    );
 
-        ModBlocks.FLUID_FORCE_BLOCK = new BlockFluidForce(() -> FLUID_FORCE_SOURCE);
-        ModItems.BUCKET_FLUID_FORCE = new ItemFluidForceBucket(() -> FLUID_FORCE_SOURCE);
-    }
+    FLUID_FORCE_FLOWING = FLUIDS.register(
+            "fluid_force_flowing",
+            () -> new ForgeFlowingFluid.Flowing(FLUID_FORCE_PROPERTIES)
+    );
+  }
 
-    private static void makeProperties() {
-        FLUID_FORCE_PROPERTIES = makeProperties(FluidForce.class, FluidForce::addAttributes,
-                () -> FLUID_FORCE_SOURCE, () -> FLUID_FORCE_FLOWING)
-                .block(() -> ModBlocks.FLUID_FORCE_BLOCK)
-                .bucket(() -> ModItems.BUCKET_FLUID_FORCE);
-    }
-
-    private static ForgeFlowingFluid.Properties makeProperties(Class<? extends ForgeFlowingFluid> fluidClass,
-                                                               Function<FluidAttributes.Builder, FluidAttributes.Builder> postProcess,
-                                                               Supplier<ForgeFlowingFluid> stillFluidSupplier,
-                                                               Supplier<ForgeFlowingFluid> flowingFluidSupplier) {
-        String name = NameUtil.fromClass(fluidClass, "Fluid").getPath();
-        return new ForgeFlowingFluid.Properties(
-                stillFluidSupplier,
-                flowingFluidSupplier,
-                postProcess.apply(builderFor(name)));
-    }
-
-    private static FluidAttributes.Builder builderFor(String fluidName) {
-        ResourceLocation still = DartcraftReloaded.key("fluid/" + fluidName + "_still");
-        ResourceLocation flowing = DartcraftReloaded.key("fluid/" + fluidName + "_flowing");
-        return FluidAttributes.builder(still, flowing);
-    }
-
-    private static <T extends Fluid> T registerFluid(T fluid) {
-        return registerFluid(fluid, NameUtil.fromClass(fluid, "Fluid", "Source"));
-    }
-
-    private static <T extends Fluid> T registerFluid(T fluid, ResourceLocation name) {
-        fluid.setRegistryName(name);
-//        DartcraftReloaded.getProxy().getRegistryPrimer().register(fluid);
-        return fluid;
-    }
 }

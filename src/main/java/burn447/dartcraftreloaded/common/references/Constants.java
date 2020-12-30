@@ -39,16 +39,8 @@ public class Constants {
         MOD_IMPERVIOUS
     }
 
-    public static final String MOD_ID = "dartcraftreloaded";
-    public static final String MOD_NAME = "Dartcraft Reloaded";
-    public static final String MOD_VERSION = "1.0.0";
     public static final int numModifiers = 25;
     public static final int numTools = 11;
 
-    public static final ItemGroup ITEM_GROUP_DARTCRAFT_RELOADED = new ItemGroup(MOD_ID) {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(Items.APPLE);
-        }
-    };
+
 }

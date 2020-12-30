@@ -1,81 +1,53 @@
 package burn447.dartcraftreloaded;
 
-import burn447.dartcraftreloaded.client.ClientProxy;
-import burn447.dartcraftreloaded.common.CommonProxy;
-import burn447.dartcraftreloaded.common.references.*;
-import net.minecraft.block.Block;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.client.event.RenderLivingEvent;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
+import burn447.dartcraftreloaded.common.references.ModBlocks;
+import burn447.dartcraftreloaded.common.references.ModFluids;
+import burn447.dartcraftreloaded.common.references.ModItems;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.ModContainer;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(Constants.MOD_ID)
+@Mod(DartcraftReloaded.MOD_ID)
 public class DartcraftReloaded {
 
-    public static Logger LOG = LogManager.getLogger(Constants.MOD_ID);
+    public static final String MOD_ID = "dartcraftreloaded";
+    public static final String MOD_NAME = "Dartcraft Reloaded";
 
-    private static DartcraftReloaded instance;
-    private static ModContainer modContainer;
+    public static final ItemGroup ITEM_GROUP = new ItemGroup(MOD_ID) {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(Items.APPLE);
+        }
+    };
 
-    public final CommonProxy proxy;
+    public static Logger LOG = LogManager.getLogger(MOD_ID);
 
     public DartcraftReloaded() {
-        instance = this;
-        modContainer = ModList.get().getModContainerById(Constants.MOD_ID).get();
 
-        this.proxy = DistExecutor.unsafeRunForDist(() -> ClientProxy::new, () -> CommonProxy::new);
+        IEventBus event = FMLJavaModLoadingContext.get().getModEventBus();
+        event.addListener(this::setup);
+        event.addListener(this::setupClient);
 
-        IEventBus fmlEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        fmlEventBus.addListener(this::setup);
+        ModItems.ITEMS.register(event);
+        ModBlocks.BLOCKS.register(event);
+        ModFluids.FLUIDS.register(event);
 
-        MinecraftForge.EVENT_BUS.register(this);
-
-
-    }
-
-    public static DartcraftReloaded getInstance() {
-        return instance;
-    }
-
-    public static ModContainer getModContainer() {
-        return modContainer;
-    }
-
-    public static CommonProxy getProxy() {
-        return getInstance().proxy;
-    }
-
-    public static ResourceLocation key(String path) {
-        return new ResourceLocation(Constants.MOD_ID, path);
+        ModFluids.registerFluids();
     }
 
     private void setup(final FMLCommonSetupEvent event) {
 
     }
 
-    @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class RegistryEvents {
-        @SubscribeEvent
-        public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
+    private void setupClient(final FMLClientSetupEvent event) {
 
-        }
-
-        @SubscribeEvent
-        public static void onItemsRegistry(final RegistryEvent.Register<Item> itemRegistryEvent) {
-
-        }
     }
 
 }

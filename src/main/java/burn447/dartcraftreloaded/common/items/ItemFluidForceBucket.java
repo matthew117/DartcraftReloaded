@@ -1,6 +1,6 @@
 package burn447.dartcraftreloaded.common.items;
 
-import burn447.dartcraftreloaded.common.references.*;
+import burn447.dartcraftreloaded.DartcraftReloaded;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
@@ -19,7 +19,7 @@ public class ItemFluidForceBucket extends BucketItem {
         super(fluidSupplier, new Item.Properties()
                 .containerItem(Items.BUCKET)
                 .maxStackSize(1)
-                .group(Constants.ITEM_GROUP_DARTCRAFT_RELOADED));
+                .group(DartcraftReloaded.ITEM_GROUP));
     }
 
     @Override
