@@ -12,7 +12,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DartcraftReloaded.MOD_ID);
 
     public static final RegistryObject<Block> FLUID_FORCE_BLOCK = BLOCKS.register("fluid_force",
-            () -> new BlockFluidForce(() -> ModFluids.FLUID_FORCE_SOURCE.get())
+            () -> new BlockFluidForce(ModFluids.FLUID_FORCE_SOURCE)
     );
 
     private ModBlocks() {}

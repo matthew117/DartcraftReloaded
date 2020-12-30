@@ -3,7 +3,7 @@
   "defaults": {
     "textures": {
       "particle": "blocks/slime",
-      "all": "dartcraftreloaded:fluidforcestill"
+      "all": "dartcraftreloaded:fluid_force_source"
     },
     "model": "forge:fluid",
     "custom": { "fluid": "force" },

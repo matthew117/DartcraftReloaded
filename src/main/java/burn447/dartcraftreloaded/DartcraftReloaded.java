@@ -35,11 +35,13 @@ public class DartcraftReloaded {
         event.addListener(this::setup);
         event.addListener(this::setupClient);
 
+        ModFluids.registerFluids();
+
         ModItems.ITEMS.register(event);
         ModBlocks.BLOCKS.register(event);
         ModFluids.FLUIDS.register(event);
 
-        ModFluids.registerFluids();
+
     }
 
     private void setup(final FMLCommonSetupEvent event) {

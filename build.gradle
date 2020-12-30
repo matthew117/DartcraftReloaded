@@ -84,21 +84,26 @@ minecraft {
 repositories {
     // JEI
     maven {
-        url = 'https://dvs1.progwml6.com/files/maven/'
+        url = "https://dvs1.progwml6.com/files/maven/"
     }
     // TOP
     maven {
-        url = 'http://maven.tterrag.com/'
+        url = "http://maven.tterrag.com/"
+    }
+    // CurseForge
+    maven {
+        url = "https://www.cursemaven.com"
     }
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.4-35.1.13'
+    minecraft "net.minecraftforge:forge:1.16.4-35.1.13"
 
     compileOnly fg.deobf("mezz.jei:jei-1.16.4:7.6.0.62:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.4:7.6.0.62")
 
     runtimeOnly fg.deobf("mcjty.theoneprobe:TheOneProbe-1.16:1.16-3.0.3-beta-6")
+    runtimeOnly fg.deobf("curse.maven:ftb-gui-library-404465:3133000")
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

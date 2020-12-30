@@ -10,6 +10,7 @@ import net.minecraft.fluid.FlowingFluid;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.world.World;
 
 import java.util.function.Supplier;
@@ -30,5 +31,6 @@ public class BlockFluidForce extends FlowingFluidBlock {
         if (entity instanceof LivingEntity) {
             ((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, 10, 10));
         }
+        entity.setMotionMultiplier(state, new Vector3d(-2, -20F, -2));
     }
 }
