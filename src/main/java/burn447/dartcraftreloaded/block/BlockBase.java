@@ -1,4 +1,4 @@
-package burn447.dartcraftreloaded.common.blocks;
+package burn447.dartcraftreloaded.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

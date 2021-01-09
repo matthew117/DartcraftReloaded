@@ -1,7 +1,7 @@
 package burn447.dartcraftreloaded.tileEntity;
 
 import burn447.dartcraftreloaded.Items.ModItems;
-import burn447.dartcraftreloaded.common.blocks.BlockForceFurnace;
+import burn447.dartcraftreloaded.block.BlockForceFurnace;
 import burn447.dartcraftreloaded.container.ContainerBlockFurnace;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -31,7 +31,7 @@ public class TileEntityForceFurnace extends TileEntityLockable implements ITicka
     private static final int[] SLOTS_TOP = new int[] {0};
     private static final int[] SLOTS_BOTTOM = new int[] {2, 1};
     private static final int[] SLOTS_SIDES = new int[] {1};
-    /** The ItemStacks that hold the items currently being used in the furnace */
+    /** The ItemStacks that hold the item currently being used in the furnace */
     private NonNullList<ItemStack> furnaceItemStacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
     /** The number of ticks that the furnace will keep burning */
     private int furnaceBurnTime;
@@ -71,7 +71,7 @@ public class TileEntityForceFurnace extends TileEntityLockable implements ITicka
     }
 
     /**
-     * Removes up to a specified number of items from an inventory slot and returns them in a new stack.
+     * Removes up to a specified number of item from an inventory slot and returns them in a new stack.
      */
     public ItemStack decrStackSize(int index, int count)
     {

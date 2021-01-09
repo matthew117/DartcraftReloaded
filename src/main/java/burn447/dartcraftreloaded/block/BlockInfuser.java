@@ -1,4 +1,4 @@
-//package burn447.dartcraftreloaded.common.blocks;
+//package burn447.dartcraftreloaded.block;
 //
 //import burn447.dartcraftreloaded.Handlers.DCRGUIHandler;
 //import burn447.dartcraftreloaded.advancements.ModTriggers;
@@ -16,8 +16,8 @@
 //import net.minecraft.util.EnumHand;
 //import net.minecraft.util.math.BlockPos;
 //import net.minecraft.world.World;
-//import net.minecraftforge.items.CapabilityItemHandler;
-//import net.minecraftforge.items.IItemHandler;
+//import net.minecraftforge.item.CapabilityItemHandler;
+//import net.minecraftforge.item.IItemHandler;
 //
 ///**
 // * Created by BURN447 on 3/31/2018.

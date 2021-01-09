@@ -1,9 +1,4 @@
-package burn447.dartcraftreloaded.common.references;
-
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
+package burn447.dartcraftreloaded.references;
 
 public class Constants {
 

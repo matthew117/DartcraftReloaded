@@ -1,12 +1,12 @@
 package burn447.dartcraftreloaded.tileEntity;
 
 import burn447.dartcraftreloaded.Energy.DCREnergyStorage;
-import burn447.dartcraftreloaded.common.fluids.FluidForce;
+import burn447.dartcraftreloaded.fluid.FluidForce;
 import burn447.dartcraftreloaded.Items.ItemArmor;
 import burn447.dartcraftreloaded.Items.ModItems;
 import burn447.dartcraftreloaded.Items.Tools.*;
-import burn447.dartcraftreloaded.common.blocks.ModBlocks;
-import burn447.dartcraftreloaded.common.blocks.torch.BlockForceTorch;
+import burn447.dartcraftreloaded.block.ModBlocks;
+import burn447.dartcraftreloaded.block.torch.BlockForceTorch;
 import burn447.dartcraftreloaded.util.EnchantUtils;
 import burn447.dartcraftreloaded.util.References;
 import net.minecraft.block.Block;

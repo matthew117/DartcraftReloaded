@@ -1,4 +1,4 @@
-package burn447.dartcraftreloaded.common.items;
+package burn447.dartcraftreloaded.item;
 
 import burn447.dartcraftreloaded.DartcraftReloaded;
 import net.minecraft.fluid.Fluid;

@@ -1,8 +1,8 @@
 package burn447.dartcraftreloaded;
 
-import burn447.dartcraftreloaded.common.references.ModBlocks;
-import burn447.dartcraftreloaded.common.references.ModFluids;
-import burn447.dartcraftreloaded.common.references.ModItems;
+import burn447.dartcraftreloaded.references.ModBlocks;
+import burn447.dartcraftreloaded.references.ModFluids;
+import burn447.dartcraftreloaded.references.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

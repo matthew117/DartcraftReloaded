@@ -1,4 +1,4 @@
-//package burn447.dartcraftreloaded.common.blocks;
+//package burn447.dartcraftreloaded.block;
 //
 //import burn447.dartcraftreloaded.DartcraftReloaded;
 //import burn447.dartcraftreloaded.Handlers.DCRGUIHandler;
@@ -99,7 +99,7 @@
 //    }
 //
 //    /**
-//     * Called periodically clientside on blocks near the player to show effects (like furnace fire particles). Note that
+//     * Called periodically clientside on block near the player to show effects (like furnace fire particles). Note that
 //     * this method is unrelated to {@link #randomTick} and {@link #needsRandomTick}, and will always be called regardless
 //     * of whether the block can receive random update ticks
 //     */

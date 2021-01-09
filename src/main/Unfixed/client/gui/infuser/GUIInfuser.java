@@ -1,6 +1,6 @@
 package burn447.dartcraftreloaded.client.gui.infuser;
 
-import burn447.dartcraftreloaded.common.fluids.ModFluids;
+import burn447.dartcraftreloaded.fluid.ModFluids;
 import burn447.dartcraftreloaded.Handlers.DCRPacketHandler;
 import burn447.dartcraftreloaded.Networking.InfuserMessage;
 import burn447.dartcraftreloaded.container.ContainerBlockInfuser;

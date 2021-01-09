@@ -1,4 +1,4 @@
-//package burn447.dartcraftreloaded.common.blocks.torch;
+//package burn447.dartcraftreloaded.block.torch;
 //
 //import burn447.dartcraftreloaded.DartcraftReloaded;
 //import burn447.dartcraftreloaded.tileEntity.TileEntityTimeTorch;

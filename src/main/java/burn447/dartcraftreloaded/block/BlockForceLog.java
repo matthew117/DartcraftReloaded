@@ -1,4 +1,4 @@
-//package burn447.dartcraftreloaded.common.blocks;
+//package burn447.dartcraftreloaded.block;
 //
 //import burn447.dartcraftreloaded.DartcraftReloaded;
 //import net.minecraft.block.BlockRotatedPillar;

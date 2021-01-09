@@ -1,4 +1,4 @@
-package burn447.dartcraftreloaded.common.references;
+package burn447.dartcraftreloaded.references;
 
 import burn447.dartcraftreloaded.DartcraftReloaded;
 import net.minecraft.block.FlowingFluidBlock;
@@ -23,8 +23,8 @@ public class ModFluids {
             () -> FLUID_FORCE_SOURCE.get(),
             () -> FLUID_FORCE_FLOWING.get(),
             FluidAttributes.builder(
-                    new ResourceLocation(DartcraftReloaded.MOD_ID, "fluids/fluid_force_source"),
-                    new ResourceLocation(DartcraftReloaded.MOD_ID, "fluids/fluid_force_flowing")
+                    new ResourceLocation(DartcraftReloaded.MOD_ID, "fluid/fluid_force_source"),
+                    new ResourceLocation(DartcraftReloaded.MOD_ID, "fluid/fluid_force_flowing")
             )
                     .rarity(Rarity.RARE)
                     .density(2000)

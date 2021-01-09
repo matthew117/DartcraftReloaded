@@ -1,6 +1,6 @@
 package burn447.dartcraftreloaded.tileEntity;
 
-import burn447.dartcraftreloaded.common.blocks.torch.BlockTimetorch;
+import burn447.dartcraftreloaded.block.torch.BlockTimetorch;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;

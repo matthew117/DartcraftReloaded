@@ -82,7 +82,7 @@ public class ItemForceRod extends ItemBase {
             }
             else {
                 List<Entity> list = worldIn.getEntitiesWithinAABB(EntityItem.class, new AxisAlignedBB(new BlockPos(pos.getX(), pos.getY() + 1, pos.getZ())));
-                //If it is a subset of items, it will drop swap an item
+                //If it is a subset of item, it will drop swap an item
                 for(Entity i: list) {
                     if (i instanceof EntityItem) {
                         //Armor

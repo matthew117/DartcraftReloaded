@@ -1,4 +1,4 @@
-package burn447.dartcraftreloaded.common.fluids;
+package burn447.dartcraftreloaded.fluid;
 
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;

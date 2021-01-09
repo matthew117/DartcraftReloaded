@@ -11,7 +11,7 @@ public class DCRFuelHandler implements IFuelHandler {
     public int getBurnTime(ItemStack fuel) {
 
         //100 per each item
-        //Smelts 10 items
+        //Smelts 10 item
         if(fuel.getItem() == ModItems.goldenPowerSource){
             return 2000;
         }

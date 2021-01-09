@@ -1,7 +1,7 @@
 package burn447.dartcraftreloaded.util;
 
 import burn447.dartcraftreloaded.Handlers.DCRPacketHandler;
-import burn447.dartcraftreloaded.common.blocks.BlockForceLog;
+import burn447.dartcraftreloaded.block.BlockForceLog;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLog;
 import net.minecraft.block.state.IBlockState;
@@ -83,7 +83,7 @@ public class DartUtils {
 
         // check if there were enough leaves around the last position
         // pos now contains the block above the topmost log
-        // we want at least 5 leaves in the surrounding 26 blocks
+        // we want at least 5 leaves in the surrounding 26 block
         int d = 3;
         int o = -1; // -(d-1)/2
         int leaves = 0;
@@ -172,7 +172,7 @@ public class DartUtils {
     }
 
     private static boolean canBreakExtraBlock(ItemStack stack, World world, EntityPlayer player, BlockPos pos, BlockPos refPos) {
-        // prevent calling that stuff for air blocks, could lead to unexpected behaviour since it fires events
+        // prevent calling that stuff for air block, could lead to unexpected behaviour since it fires events
         if(world.isAirBlock(pos)) {
             return false;
         }
@@ -189,7 +189,7 @@ public class DartUtils {
         float refStrength = ForgeHooks.blockStrength(refState, player, world, refPos);
         float strength = ForgeHooks.blockStrength(state, player, world, pos);
 
-        // only harvestable blocks that aren't impossibly slow to harvest
+        // only harvestable block that aren't impossibly slow to harvest
         if(!ForgeHooks.canHarvestBlock(block, player, world, pos) || refStrength / strength > 10f) {
             return false;
         }
